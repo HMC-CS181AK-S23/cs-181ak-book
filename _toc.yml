@@ -1,14 +1,20 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
-format: jb-book
 root: intro
-chapters:
-- file: circle_game
-- file: open_cv
-- file: geospatial_ufo
-- file: shiny_dog
-- file: clare_bot
-- file: spotify_api
-- file: generating_prompts
-- file: ticket_api
+format: jb-book
+parts:
+  - caption: API Tutorial
+    chapters:
+    - file: spotify_api
+    - file: ticket_api
+  - caption: Games
+    chapters:
+    - file: shiny_dog
+    - file: circle_game
+  - caption: Data
+    chapters:
+    - file: open_cv
+    - file: geospatial_ufo
+    - file: clare_bot
+    - file: generating_prompts
